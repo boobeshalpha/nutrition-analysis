@@ -39,6 +39,12 @@ and communicate the insights effectively using **Power BI visualizations**.
 | 📁 CSV     | Input data files               |
 
 ---
+ Run Python EDA (Optional but Recommended)
 
+> If you want to view or rerun the cleaning and preprocessing steps:
+
+1. **Install dependencies**:
+   ```bash
+   pip install pandas matplotlib seaborn jupyter
 ## 🗂️ Folder Structure
 
