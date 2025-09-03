@@ -1,0 +1,7 @@
+malnutrition_level,age_group,avg_CI
+Low,Adult,2.6358970640810058
+Moderate,Adult,7.639441969791728
+High,Adult,9.253291840354601
+Moderate,Child/Adolescent,9.89113244744613
+Low,Child/Adolescent,4.437166520433019
+High,Child/Adolescent,7.876140479913015

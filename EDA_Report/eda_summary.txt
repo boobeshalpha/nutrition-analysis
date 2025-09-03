@@ -1,0 +1,73 @@
+📊 Nutrition Paradox EDA Report
+==================================================
+
+✅ First 5 rows:
+                  Region    Gender  Year  ...   CI_Width  obesity_level  malnutrition_level
+0        Western Pacific   SEX_MLE  2019  ...   5.854106           High                 NaN
+1        Western Pacific  SEX_BTSX  2017  ...   4.902090            Low                 NaN
+2  Eastern Mediterranean   SEX_MLE  2020  ...   3.451950            Low                 NaN
+3  Eastern Mediterranean   SEX_MLE  2020  ...  10.725747       Moderate                 NaN
+4                 Europe  SEX_FMLE  2014  ...   6.288494       Moderate                 NaN
+
+[5 rows x 11 columns]
+
+✅ Data Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 55440 entries, 0 to 55439
+Data columns (total 11 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   Region              52536 non-null  object 
+ 1   Gender              55440 non-null  object 
+ 2   Year                55440 non-null  int64  
+ 3   LowerBound          55440 non-null  float64
+ 4   UpperBound          55440 non-null  float64
+ 5   Mean_Estimate       55440 non-null  float64
+ 6   Country             55440 non-null  object 
+ 7   age_group           55440 non-null  object 
+ 8   CI_Width            55440 non-null  float64
+ 9   obesity_level       27720 non-null  object 
+ 10  malnutrition_level  27720 non-null  object 
+dtypes: float64(4), int64(1), object(6)
+memory usage: 4.7+ MB
+
+
+✅ Descriptive Statistics:
+               Year    LowerBound    UpperBound  Mean_Estimate      CI_Width
+count  55440.000000  55440.000000  55440.000000   55440.000000  55440.000000
+mean    2017.000000      6.395124     12.608189       9.057746      6.213064
+std        3.162306      8.097405     10.838433       9.178530      5.752680
+min     2012.000000      0.023703      0.354833       0.175309      0.166679
+25%     2014.000000      1.310723      4.679671       2.789393      2.159175
+50%     2017.000000      3.316589      9.392669       5.900974      4.333123
+75%     2020.000000      8.430449     17.221421      12.280310      8.370882
+max     2022.000000     74.365371     87.868512      80.609250     40.554062
+
+✅ Missing Values:
+Region                 2904
+Gender                    0
+Year                      0
+LowerBound                0
+UpperBound                0
+Mean_Estimate             0
+Country                   0
+age_group                 0
+CI_Width                  0
+obesity_level         27720
+malnutrition_level    27720
+dtype: int64
+
+✅ Unique Values Per Column:
+Region: 6
+Gender: 3
+Year: 11
+LowerBound: 55414
+UpperBound: 55382
+Mean_Estimate: 55400
+Country: 210
+age_group: 2
+CI_Width: 55433
+obesity_level: 3
+malnutrition_level: 3
+
+

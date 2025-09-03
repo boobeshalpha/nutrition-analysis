@@ -1,0 +1,7 @@
+obesity_level,age_group,country_count
+High,Adult,94
+High,Child/Adolescent,11
+Low,Adult,176
+Low,Child/Adolescent,210
+Moderate,Adult,99
+Moderate,Child/Adolescent,26
